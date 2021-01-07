@@ -15,6 +15,9 @@ enum Event {
 protocol Coordinator {
     var navigationController: UINavigationController? { get set }
     
+    // We could have children coordinators handling different business logic
+    var childrenCoordinators: [Coordinator]? { get set }
+    
     /// Tells the coordinator something happened...handle it.
     func eventOccurred(with type: Event)
     

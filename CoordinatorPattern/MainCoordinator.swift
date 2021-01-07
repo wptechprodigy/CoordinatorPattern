@@ -11,6 +11,7 @@ import Foundation
 import UIKit
 
 class MainCoordinator: Coordinator {
+    var childrenCoordinators: [Coordinator]? = nil
     var navigationController: UINavigationController?
     
     func eventOccurred(with type: Event) {
