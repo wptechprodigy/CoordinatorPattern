@@ -14,6 +14,7 @@
 		04617B0025A76F1E00FFC704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04617AFE25A76F1E00FFC704 /* LaunchScreen.storyboard */; };
 		04617B0A25A773AA00FFC704 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04617B0925A773AA00FFC704 /* Coordinator.swift */; };
 		04617B0D25A7754900FFC704 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04617B0C25A7754900FFC704 /* MainCoordinator.swift */; };
+		04617B1025A77B1E00FFC704 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04617B0F25A77B1E00FFC704 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		04617B0125A76F1E00FFC704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04617B0925A773AA00FFC704 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		04617B0C25A7754900FFC704 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		04617B0F25A77B1E00FFC704 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				04617AF325A76F1B00FFC704 /* AppDelegate.swift */,
 				04617AF525A76F1B00FFC704 /* SceneDelegate.swift */,
 				04617AF725A76F1B00FFC704 /* ViewController.swift */,
+				04617B0F25A77B1E00FFC704 /* SecondViewController.swift */,
 				04617AFC25A76F1E00FFC704 /* Assets.xcassets */,
 				04617AFE25A76F1E00FFC704 /* LaunchScreen.storyboard */,
 				04617B0125A76F1E00FFC704 /* Info.plist */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04617B1025A77B1E00FFC704 /* SecondViewController.swift in Sources */,
 				04617B0A25A773AA00FFC704 /* Coordinator.swift in Sources */,
 				04617AF825A76F1B00FFC704 /* ViewController.swift in Sources */,
 				04617AF425A76F1B00FFC704 /* AppDelegate.swift in Sources */,
